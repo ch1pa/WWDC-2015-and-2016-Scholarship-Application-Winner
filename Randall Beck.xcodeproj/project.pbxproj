@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DBEE3401AE1D43500B5D091 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBEE33F1AE1D43500B5D091 /* main.m */; };
+		8DBEE3431AE1D43500B5D091 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBEE3421AE1D43500B5D091 /* AppDelegate.m */; };
+		8DBEE3461AE1D43500B5D091 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBEE3451AE1D43500B5D091 /* GameScene.m */; };
+		8DBEE3481AE1D43500B5D091 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8DBEE3471AE1D43500B5D091 /* GameScene.sks */; };
+		8DBEE34B1AE1D43500B5D091 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBEE34A1AE1D43500B5D091 /* GameViewController.m */; };
+		8DBEE34E1AE1D43500B5D091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DBEE34C1AE1D43500B5D091 /* Main.storyboard */; };
+		8DBEE3501AE1D43500B5D091 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DBEE34F1AE1D43500B5D091 /* Images.xcassets */; };
+		8DBEE3531AE1D43500B5D091 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DBEE3511AE1D43500B5D091 /* LaunchScreen.xib */; };
+		8DBEE35F1AE1D43500B5D091 /* Randall_BeckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBEE35E1AE1D43500B5D091 /* Randall_BeckTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DBEE3591AE1D43500B5D091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DBEE3321AE1D43500B5D091 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DBEE3391AE1D43500B5D091;
+			remoteInfo = "Randall Beck";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DBEE33A1AE1D43500B5D091 /* Randall Beck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Randall Beck.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DBEE33E1AE1D43500B5D091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DBEE33F1AE1D43500B5D091 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DBEE3411AE1D43500B5D091 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8DBEE3421AE1D43500B5D091 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8DBEE3441AE1D43500B5D091 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		8DBEE3451AE1D43500B5D091 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		8DBEE3471AE1D43500B5D091 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		8DBEE3491AE1D43500B5D091 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		8DBEE34A1AE1D43500B5D091 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		8DBEE34D1AE1D43500B5D091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DBEE34F1AE1D43500B5D091 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8DBEE3521AE1D43500B5D091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8DBEE3581AE1D43500B5D091 /* Randall BeckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Randall BeckTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DBEE35D1AE1D43500B5D091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DBEE35E1AE1D43500B5D091 /* Randall_BeckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Randall_BeckTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DBEE3371AE1D43500B5D091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBEE3551AE1D43500B5D091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DBEE3311AE1D43500B5D091 = {
+			isa = PBXGroup;
+			children = (
+				8DBEE33C1AE1D43500B5D091 /* Randall Beck */,
+				8DBEE35B1AE1D43500B5D091 /* Randall BeckTests */,
+				8DBEE33B1AE1D43500B5D091 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DBEE33B1AE1D43500B5D091 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DBEE33A1AE1D43500B5D091 /* Randall Beck.app */,
+				8DBEE3581AE1D43500B5D091 /* Randall BeckTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DBEE33C1AE1D43500B5D091 /* Randall Beck */ = {
+			isa = PBXGroup;
+			children = (
+				8DBEE3411AE1D43500B5D091 /* AppDelegate.h */,
+				8DBEE3421AE1D43500B5D091 /* AppDelegate.m */,
+				8DBEE3441AE1D43500B5D091 /* GameScene.h */,
+				8DBEE3451AE1D43500B5D091 /* GameScene.m */,
+				8DBEE3471AE1D43500B5D091 /* GameScene.sks */,
+				8DBEE3491AE1D43500B5D091 /* GameViewController.h */,
+				8DBEE34A1AE1D43500B5D091 /* GameViewController.m */,
+				8DBEE34C1AE1D43500B5D091 /* Main.storyboard */,
+				8DBEE34F1AE1D43500B5D091 /* Images.xcassets */,
+				8DBEE3511AE1D43500B5D091 /* LaunchScreen.xib */,
+				8DBEE33D1AE1D43500B5D091 /* Supporting Files */,
+			);
+			path = "Randall Beck";
+			sourceTree = "<group>";
+		};
+		8DBEE33D1AE1D43500B5D091 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DBEE33E1AE1D43500B5D091 /* Info.plist */,
+				8DBEE33F1AE1D43500B5D091 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DBEE35B1AE1D43500B5D091 /* Randall BeckTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DBEE35E1AE1D43500B5D091 /* Randall_BeckTests.m */,
+				8DBEE35C1AE1D43500B5D091 /* Supporting Files */,
+			);
+			path = "Randall BeckTests";
+			sourceTree = "<group>";
+		};
+		8DBEE35C1AE1D43500B5D091 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DBEE35D1AE1D43500B5D091 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DBEE3391AE1D43500B5D091 /* Randall Beck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DBEE3621AE1D43500B5D091 /* Build configuration list for PBXNativeTarget "Randall Beck" */;
+			buildPhases = (
+				8DBEE3361AE1D43500B5D091 /* Sources */,
+				8DBEE3371AE1D43500B5D091 /* Frameworks */,
+				8DBEE3381AE1D43500B5D091 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Randall Beck";
+			productName = "Randall Beck";
+			productReference = 8DBEE33A1AE1D43500B5D091 /* Randall Beck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DBEE3571AE1D43500B5D091 /* Randall BeckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DBEE3651AE1D43500B5D091 /* Build configuration list for PBXNativeTarget "Randall BeckTests" */;
+			buildPhases = (
+				8DBEE3541AE1D43500B5D091 /* Sources */,
+				8DBEE3551AE1D43500B5D091 /* Frameworks */,
+				8DBEE3561AE1D43500B5D091 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DBEE35A1AE1D43500B5D091 /* PBXTargetDependency */,
+			);
+			name = "Randall BeckTests";
+			productName = "Randall BeckTests";
+			productReference = 8DBEE3581AE1D43500B5D091 /* Randall BeckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DBEE3321AE1D43500B5D091 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ch1pa Software";
+				TargetAttributes = {
+					8DBEE3391AE1D43500B5D091 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					8DBEE3571AE1D43500B5D091 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 8DBEE3391AE1D43500B5D091;
+					};
+				};
+			};
+			buildConfigurationList = 8DBEE3351AE1D43500B5D091 /* Build configuration list for PBXProject "Randall Beck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DBEE3311AE1D43500B5D091;
+			productRefGroup = 8DBEE33B1AE1D43500B5D091 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DBEE3391AE1D43500B5D091 /* Randall Beck */,
+				8DBEE3571AE1D43500B5D091 /* Randall BeckTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DBEE3381AE1D43500B5D091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBEE3531AE1D43500B5D091 /* LaunchScreen.xib in Resources */,
+				8DBEE3501AE1D43500B5D091 /* Images.xcassets in Resources */,
+				8DBEE3481AE1D43500B5D091 /* GameScene.sks in Resources */,
+				8DBEE34E1AE1D43500B5D091 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBEE3561AE1D43500B5D091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DBEE3361AE1D43500B5D091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBEE34B1AE1D43500B5D091 /* GameViewController.m in Sources */,
+				8DBEE3431AE1D43500B5D091 /* AppDelegate.m in Sources */,
+				8DBEE3461AE1D43500B5D091 /* GameScene.m in Sources */,
+				8DBEE3401AE1D43500B5D091 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBEE3541AE1D43500B5D091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBEE35F1AE1D43500B5D091 /* Randall_BeckTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DBEE35A1AE1D43500B5D091 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DBEE3391AE1D43500B5D091 /* Randall Beck */;
+			targetProxy = 8DBEE3591AE1D43500B5D091 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DBEE34C1AE1D43500B5D091 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DBEE34D1AE1D43500B5D091 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DBEE3511AE1D43500B5D091 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DBEE3521AE1D43500B5D091 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DBEE3601AE1D43500B5D091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8DBEE3611AE1D43500B5D091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DBEE3631AE1D43500B5D091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Randall Beck/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8DBEE3641AE1D43500B5D091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Randall Beck/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8DBEE3661AE1D43500B5D091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Randall BeckTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Randall Beck.app/Randall Beck";
+			};
+			name = Debug;
+		};
+		8DBEE3671AE1D43500B5D091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Randall BeckTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Randall Beck.app/Randall Beck";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DBEE3351AE1D43500B5D091 /* Build configuration list for PBXProject "Randall Beck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DBEE3601AE1D43500B5D091 /* Debug */,
+				8DBEE3611AE1D43500B5D091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DBEE3621AE1D43500B5D091 /* Build configuration list for PBXNativeTarget "Randall Beck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DBEE3631AE1D43500B5D091 /* Debug */,
+				8DBEE3641AE1D43500B5D091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8DBEE3651AE1D43500B5D091 /* Build configuration list for PBXNativeTarget "Randall BeckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DBEE3661AE1D43500B5D091 /* Debug */,
+				8DBEE3671AE1D43500B5D091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DBEE3321AE1D43500B5D091 /* Project object */;
+}
