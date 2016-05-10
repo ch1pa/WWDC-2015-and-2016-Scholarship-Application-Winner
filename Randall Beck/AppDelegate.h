@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+@import GameKit;
+@import SpriteKit;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

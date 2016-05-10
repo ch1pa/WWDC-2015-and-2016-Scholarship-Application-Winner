@@ -7,7 +7,19 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import "GameViewController.h"
 
-@interface GameScene : SKScene
+@class Story;
+@interface GameScene : SKScene {
+    
+}
+
+@property (nonatomic, assign)long int points;
+@property (nonatomic, retain)SKSpriteNode *welcome;
+@property (nonatomic, assign)BOOL stop;
+
+
+-(void)startGame:(id)sender;
+-(void)restart:(id)sender;
 
 @end
